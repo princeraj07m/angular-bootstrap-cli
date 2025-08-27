@@ -1,0 +1,36 @@
+{
+  "name": "ng-b-fa-new",
+  "version": "1.0.2",
+  "description": "Custom Angular CLI that auto-installs Bootstrap, FontAwesome, and PrimeNG",
+  "main": "index.js",
+  "bin": {
+    "ng-b-fa-new": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "angular",
+    "cli",
+    "bootstrap",
+    "fontawesome",
+    "primeng",
+    "automation",
+    "scaffolding"
+  ],
+  "author": {
+    "name": "Prince Kumar",
+    "email": "princerajce4@gmail.com",
+    "url": "https://github.com/princeraj07m"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princeraj07m/angular-bootstrap-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/princeraj07m/angular-bootstrap-cli/issues",
+    "email": "princerajce4@gmail.com"
+  },
+  "homepage": "https://github.com/princeraj07m/angular-bootstrap-cli#readme"
+}
