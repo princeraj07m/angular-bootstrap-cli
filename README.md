@@ -1,6 +1,6 @@
 # Angular Bootstrap CLI
 
-A simple custom CLI tool to **create Angular projects with Bootstrap, FontAwesome, and PrimeNG pre-installed**.
+A simple custom CLI tool to **create Angular projects with Bootstrap**.
 It saves time by automating the installation and setup process.
 
 ---
@@ -26,7 +26,7 @@ ng-b-fa-new my-app
 This will:
 
 * Create a new Angular app (`ng new my-app`)
-* Install **Bootstrap**, **FontAwesome**, **PrimeNG**, and **PrimeIcons**
+* Install **Bootstrap**, **FontAwesome**
 * Automatically configure `angular.json` with required CSS
 
 ---
@@ -37,8 +37,6 @@ Your project will already have:
 
 * ✅ Bootstrap grid, utilities, and components
 * ✅ FontAwesome icons
-* ✅ PrimeNG UI components
-* ✅ PrimeIcons
 
 No extra setup needed — just start coding.
 
@@ -73,12 +71,10 @@ Inside `app.component.html`, replace the template with:
   <button class="btn btn-success mt-3">
     <i class="fa fa-check"></i> Bootstrap + FA
   </button>
-
-  <p-button label="PrimeNG Button" icon="pi pi-star"></p-button>
 </div>
 ```
 
-If you see a styled heading, a green Bootstrap button with an icon, and a PrimeNG button — 🎉 setup is working!
+If you see a styled heading, a green Bootstrap button with an icon — 🎉 setup is working!
 
 ---
 
