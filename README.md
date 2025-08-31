@@ -1,7 +1,7 @@
 # Angular Bootstrap CLI
 
-A simple custom CLI tool to **create Angular projects with Bootstrap**.
-It saves time by automating the installation and setup process.
+A simple custom CLI tool to **create Angular projects with Bootstrap + FontAwesome**.
+It saves time by automating the Angular setup, dependency installation, and configuration process.
 
 ---
 
@@ -26,8 +26,22 @@ ng-b-fa-new my-app
 This will:
 
 * Create a new Angular app (`ng new my-app`)
-* Install **Bootstrap**, **FontAwesome**
+* Install **Bootstrap** and **FontAwesome**
 * Automatically configure `angular.json` with required CSS
+* Remove `zone.js` for a zoneless Angular setup
+
+---
+
+## ⚙️ Options
+
+You can pass flags when creating your project:
+
+```bash
+ng-b-fa-new my-app --no-standalone
+```
+
+* **Default** → Uses Angular’s **standalone components**
+* **--no-standalone** → Creates a project using **NgModules** instead of standalone
 
 ---
 
@@ -37,16 +51,20 @@ Your project will already have:
 
 * ✅ Bootstrap grid, utilities, and components
 * ✅ FontAwesome icons
+* ✅ Zoneless Angular configuration
 
-No extra setup needed — just start coding.
+No extra setup needed — just start coding 🚀
 
 ---
 
 ## 🖥 Example
 
 ```bash
-# Create new project
+# Create new standalone-based project
 ng-b-fa-new shop-app
+
+# Or create module-based project
+ng-b-fa-new shop-app --no-standalone
 
 # Move into project
 cd shop-app
@@ -74,7 +92,7 @@ Inside `app.component.html`, replace the template with:
 </div>
 ```
 
-If you see a styled heading, a green Bootstrap button with an icon — 🎉 setup is working!
+If you see a styled heading and a green Bootstrap button with a FontAwesome icon — 🎉 setup is working!
 
 ---
 
